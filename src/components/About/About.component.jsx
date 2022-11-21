@@ -16,7 +16,7 @@ const About = () => {
 
                 <br />
 
-                <p className="text-justify text-xl">
+                <p className="text-justify sm:text-xl">
                     I am thrilled to be working with tech! I discovered this world during a trip
                     to the USA. More specifically, to San Francisco. Yeah, you're right, out of the sudden
                     I left my countryside home in Brazil, and found muyself in the middle of the Silicon Valley.

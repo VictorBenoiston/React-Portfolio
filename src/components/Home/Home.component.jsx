@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <Link to="About" duration={500} smooth className="sm:my-30">
+                <Link to="About" duration={500} smooth>
                     <img src={HeroImage} alt="my profile" 
                     className="rounded-2xl mx-auto w-2/3 md:w-full lg:hover:scale-110 
                     duration-200 cursor-pointer"/>

@@ -12,8 +12,8 @@ const NavBar = () => {
 
     return (
 
-        <div className="flex justify-between items-center w-full h-20 text-white 
-        fixed bg-black px-4">
+        <div className="flex justify-between items-center w-full h-20 px-4 text-white
+        bg-black sm:fixed">
             <div className="text-purple">
                 <h1 className="text-5xl font-signature ml-2 mt-2 hover:scale-105 duration-200 
                 cursor-pointer">Victor</h1>
@@ -35,8 +35,8 @@ const NavBar = () => {
                     : <FaBars size={30} />}
             </div>
 
-            {nav && (<ul className="flex flex-col justify-center items-center absolute top-0 left-0 
-            w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 ">
+            {nav && (<ul className="flex flex-col justify-center items-center fixed top-0 left-0 
+            w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
                 {links.map(({ id, link }) => (
                     <li key={id} className="px-4 cursor-pointer
                     font-medium text-gray-500 hover:scale-110 duration-200 my-[5%]">
