@@ -1,7 +1,11 @@
 import React from "react";
+
 import HeroImage from '../../assets/memoji.jpg'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
+import { BsPaperclip } from 'react-icons/bs'
+
 import { Link } from 'react-scroll'
+
 
 const Home = () => {
     return (
@@ -19,17 +23,33 @@ const Home = () => {
                     I am a Full-Stack developer, specializing in building (hence, designing as well)
                     cool, and most importantly, useful tools to fulfil needs.
                     </p>
-                    <div>
+                    <div className="flex">
                         <Link to='Portfolio' duration={500} smooth
                         className="group text-white w-fit px-6 py-3
                         my-2 flex items-center rounded-md bg-gradient-to-r
-                        from-cyan-500 to-blue-500 cursor-pointer">
+                        from-cyan-500 to-blue-500 cursor-pointer mr-4 hover:bg-gradient-to-bl">
                             Portfolio
-                            <span className="group-hover:rotate-90 duration-300">
+                            <span
+                            className="group-hover:rotate-90 duration-300">
                                 <MdOutlineKeyboardArrowRight size={25}
                                 className="ml-1"/>
                             </span>
                         </Link>
+
+                        <a 
+                        href='/resume_opt1.pdf'
+                            target='_blank' 
+                            rel="noreferrer"
+                            download={true}
+                        className="group text-white w-fit px-6 py-3
+                        my-2 flex items-center rounded-md bg-gradient-to-r
+                        from-red-700 to-blue-500 cursor-pointer hover:bg-gradient-to-bl">
+                            Download Resume
+                            <span className="group-hover:rotate-45 duration-300">
+                                <BsPaperclip size={25}
+                                className="ml-1"/>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
