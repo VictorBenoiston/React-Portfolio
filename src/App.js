@@ -5,6 +5,7 @@ import About from "./components/About/About.component";
 import Portfolio from "./components/Portfolio/Portfolio.component";
 import Skills from "./components/Skills/Skills.component";
 import Contact from "./components/Contact/Contact.component";
+import { ScrollToTop } from "./components/BackToTopBtn";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Portfolio />
       <Skills />
       <Contact />
+      <ScrollToTop />
     </div>
   );
 }
