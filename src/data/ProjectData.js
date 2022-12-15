@@ -90,22 +90,27 @@ export const skillsData = [
 export const navBarLinks = [
     {
         id: 1,
-        link: 'Home'
+        link: 'Home',
+        icon: '🏠'
     },
     {
         id: 2,
-        link: 'About'
+        link: 'About',
+        icon: '🔭'
     },
     {
         id: 3,
-        link: 'Portfolio'
+        link: 'Portfolio',
+        icon: '👨🏻‍💻'
     },
     {
         id: 4,
-        link: 'Skills'
+        link: 'Skills',
+        icon: '💪🏻'
     },
     {
         id: 5,
-        link: 'Contact'
+        link: 'Contact',
+        icon: '✉️'
     },
 ]

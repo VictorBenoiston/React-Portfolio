@@ -57,7 +57,7 @@ const Portfolio = () => {
                                     {previewUrl ? <button className="w-full px-5 py-1 duration-200 hover:scale-105 
                         text-white bg-gradient-to-r from-cyan-500 to-blue-500 
                         hover:bg-gradient-to-bl rounded font-bold">Demo</button>
-                                        : <button className="w-full px-5 py-1 bg-gray-500 rounded font-bold">Demo</button>}
+                                        : <button className="w-full px-5 py-1 bg-gray-500 rounded font-bold cursor-not-allowed">Demo</button>}
                                 </a>
 
 
