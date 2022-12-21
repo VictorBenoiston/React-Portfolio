@@ -37,7 +37,7 @@ const Home = () => {
                         </Link>
 
                         <a 
-                        href='/resume_v1_no_pic.pdf'
+                        href='/resume_Victor_Oliveira.pdf'
                             target='_blank' 
                             rel="noreferrer"
                             download={true}
