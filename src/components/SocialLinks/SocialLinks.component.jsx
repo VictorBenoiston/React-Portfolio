@@ -45,7 +45,7 @@ const SocialLinks = () => {
                     Resume <BsPaperclip size={30} />
                 </>
             ),
-            href: '/resume_v1_no_pic.pdf',
+            href: '/resume_Victor_Oliveira.pdf',
             style: 'rounded-br-md',
             download: true,
             color: 'bg-red-500'
