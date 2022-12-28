@@ -2,39 +2,13 @@ import React from "react";
 
 import Title from "../Title";
 
-import cart from '../../assets/portfolio/cart.png'
-import recommender from '../../assets/portfolio/recommender.png'
-import eCommerce from '../../assets/portfolio/eCommerce.png'
-import signInPage from '../../assets/portfolio/signInPage.png'
+import { portfoliProjects } from "../../data/ProjectData";
+
+
 
 const Portfolio = () => {
 
-    const portfolios = [
-        {
-            id: 1,
-            src: recommender,
-            previewUrl: null,
-            githubUrl: 'https://github.com/VictorBenoiston/recommender_system',
-        },
-        {
-            id: 2,
-            src: eCommerce,
-            previewUrl: 'https://spiffy-croissant-1a7315.netlify.app/shop',
-            githubUrl: 'https://github.com/VictorBenoiston/clothe-ecommerce'
-        },
-        {
-            id: 3,
-            src: signInPage,
-            previewUrl: 'https://spiffy-croissant-1a7315.netlify.app/auth',
-            githubUrl: 'https://github.com/VictorBenoiston/clothe-ecommerce'
-        },
-        {
-            id: 4,
-            src: cart,
-            previewUrl: 'https://spiffy-croissant-1a7315.netlify.app/checkout',
-            githubUrl: 'https://github.com/VictorBenoiston/clothe-ecommerce'
-        }
-    ]
+
     return <div 
     id="Portfolio" 
     title="Portfolio"
@@ -47,7 +21,7 @@ const Portfolio = () => {
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
                 {
-                    portfolios.map(({ id, src, githubUrl, previewUrl }) =>
+                    portfoliProjects.map(({ id, src, githubUrl, previewUrl }) =>
                         <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                             <img src={src} alt="" className="rounded-md
                     duration-200 hover:scale-105 cursor-pointer" />
