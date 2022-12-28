@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 import { navBarLinks } from '../../data/ProjectData'
-
+import { socialLinksData } from "../../data/ProjectData";
 import { Link } from "react-scroll"
 
 const NavBar = () => {
@@ -36,23 +36,41 @@ const NavBar = () => {
             </div>
 
             {/* Mobile */}
-            {nav && (
-                    <ul className="flex flex-col justify-center place-items-center fixed top-0 left-0 
-            w-1/2 h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 transition-transform duration-400 ">
-                {/* <li className="text-3xl mb-10 font-bold border-b-4 border-white-500">➡️ Go to:</li> */}
-                <li className="text-6xl font-signature fixed top-10">Victor</li>
-                        {links.map(({ id, link, icon }) => (
-                            <li key={id} className="text-2xl px-4 cursor-pointer
+            {nav && (<>
+                <ul className="flex flex-col justify-center place-items-center fixed top-0 left-0 
+            w-2/3 h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 transition-transform duration-400 ">
+                    {/* <li className="text-3xl mb-10 font-bold border-b-4 border-white-500">➡️ Go to:</li> */}
+                    <li className="text-6xl font-signature fixed top-10">Victor</li>
+                    {links.map(({ id, link, icon }) => (
+                        <li key={id} className="text-2xl px-4 cursor-pointer
                     font-medium text-gray-500 hover:scale-110 duration-200 my-[5%]">
-                                <Link to={link} smooth duration={500}
-                                    onClick={() => setNav(!nav)}>
-                                    {icon} {link}
-                                </Link>
+                            <Link to={link} smooth duration={500}
+                                onClick={() => setNav(!nav)}>
+                                {icon} {link}
+                            </Link>
 
-                            </li>
+                        </li>
+
+                    ))}
+                    <ul className="flex flex-line fixed bottom-10 ">
+                        {socialLinksData.map(({id, download, icon, href,color}) => (
+                            <li key={id} className='m-1'>
+                            <a href={href} target='_blank' 
+                        className={`flex justify-between items-center 
+                        hover:rounded-lg duration-300 w-full text-white ${color} p-1`}
+                        rel="noreferrer"
+                        download={download}>
+                            {icon}
+                        </a></li>
+                            
                         ))}
+                    </ul>
 
-                    </ul>)}
+
+                </ul>
+
+            </>
+            )}
 
 
         </div>

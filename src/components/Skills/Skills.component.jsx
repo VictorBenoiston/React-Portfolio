@@ -17,7 +17,7 @@ const Skills = () => {
                 <Title title='Skills' />
                 <p className="py-6 mt-2">These are the technologies I've worked with:</p>
             </div>
-            <div className="w-full grid grid-cols-2 lg:grid-cols-4  md:grid-cols-3 sm:grid-cols-2 gap-8 text-center
+            <div className="w-full grid grid-cols-2 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 gap-8 text-center
             py-8 px-12 sm:px-0">
                 {techs.map(item =>
                     <SkillsItem key={item.id} item={item} />
