@@ -1,0 +1,27 @@
+{   
+    "nav_bar_links": [
+        "Contato", "Inicio"
+    ],
+    "welcome_to_react": "Bem vindo ao React e react-i18next",
+    "home_title": "Sou um Desenvolvedor Full-Stack!",
+    "home_description": "Eu sou um Desenvolvedor Full-Stack. Meu objetivo principal é construir (e projetar), ferramentas unicas, balanceadas e principalmente úteis para um dado objetivo.",
+    "home_resume_button": "Baixar Curriculo",
+    "title_about": "Sobre",
+    "about_title": "Olá! Fico feliz por estar aqui. Me chamo Victor, tenho 23 anos, e sou do Brasil!",
+    "title_portfolio": "Portfólio",
+    "portfolio_text": "Confira um pouco do meu trabalho aqui:",
+    "portfolio_btn_2": "Código",
+    "skills_text": "Essas são algumas das tecnologias com as quais já trabalhei:",
+    "title_contact": "Contato",
+    "contact_text": "Envie o formulário abaixo para entrar em contato comigo.",
+    "contact_ph_name": "Digite seu nome",
+    "contact_ph_email": "Digite seu email",
+    "contact_ph_message": "Digite sua messagem",
+    "contact_btn_send": "Enviar!"
+
+
+
+
+
+}
+

@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import react from '../assets/react.png'
@@ -18,6 +20,7 @@ import styledComponents from '../assets/styledComponents.png'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsPaperclip } from 'react-icons/bs'
+
 
 import cart from '../assets/portfolio/cart.png'
 import recommender from '../assets/portfolio/recommender.png'
@@ -65,7 +68,7 @@ export const skillsData = [
     {
         id: 7,
         src: styledComponents,
-        title: 'StyledComponents',
+        title: 'Styled Components',
         style: 'shadow-pink-300'
     },
     {
@@ -132,7 +135,35 @@ export const skillsData = [
 ]
 
 
-export const navBarLinks = [
+export const navBarLinksPt = [
+    {
+        id: 1,
+        link: 'Inicio',
+        icon: '🏠'
+    },
+    {
+        id: 2,
+        link: 'Sobre',
+        icon: '🔭'
+    },
+    {
+        id: 3,
+        link: 'Portfólio',
+        icon: '👨🏻‍💻'
+    },
+    {
+        id: 4,
+        link: 'Skills',
+        icon: '💪🏻'
+    },
+    {
+        id: 5,
+        link: 'Contato',
+        icon: '✉️'
+    },
+]
+
+export const navBarLinksEn = [
     {
         id: 1,
         link: 'Home',
