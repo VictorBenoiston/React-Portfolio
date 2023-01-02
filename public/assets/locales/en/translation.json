@@ -1,0 +1,23 @@
+{
+    "welcome_to_react": "Welcome to React and react-i18next",
+    "home_title": "I am a Full-Stack developer!",
+    "home_description": "I am a Full-Stack developer, specializing in building (hence, designing as well)cool, and most importantly, useful tools to fulfil needs.",
+    "home_resume_button": "Download Resume",
+    "title_about": "About",
+    "about_title": "Hi, There! I'm glad you are here. My name is Victor, I am 23 years old, and I'm from Brazil",
+    "about_text": "",
+    "title_portfolio": "Portfolio",
+    "portfolio_text": "Check out some of my work here:",
+    "portfolio_btn_2": "Code",
+    "skills_text": "These are a few of the technologies that I've worked with:",
+    "title_contact": "Contact",
+    "contact_text": "Submit the form below to get in touch with me.",
+    "contact_ph_name": "Enter your name",
+    "contact_ph_email": "Enter your email",
+    "contact_ph_message": "Enter your message",
+    "contact_btn_send": "Send!"
+
+
+    
+
+}

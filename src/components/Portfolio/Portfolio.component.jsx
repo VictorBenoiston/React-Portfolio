@@ -1,13 +1,15 @@
 import React from "react";
 
 import Title from "../Title";
+import { useTranslation } from "react-i18next";
+
 
 import { portfoliProjects } from "../../data/ProjectData";
 
 
 
 const Portfolio = () => {
-
+    const { t } = useTranslation();
 
     return <div 
     id="Portfolio" 
@@ -16,8 +18,8 @@ const Portfolio = () => {
     w-full h-100 text-white">
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
             <div className="pb-8" >
-                <Title title='Portfolio'/>
-                <p className="py-6 mt-2">Check out some of my work right here:</p>
+                <Title title={t('title_portfolio')}/>
+                <p className="py-6 mt-2">{t('portfolio_text')}</p>
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
                 {
@@ -38,7 +40,7 @@ const Portfolio = () => {
                                 <a href={githubUrl} target='_blank' rel="noreferrer" className="w-1/2 m-4">
                                     <button className="w-full px-5 py-1 duration-200 hover:scale-105 
                         text-white bg-gradient-to-r from-cyan-500 to-blue-500 
-                        hover:bg-gradient-to-bl rounded font-bold">Code</button>
+                        hover:bg-gradient-to-bl rounded font-bold">{t('portfolio_btn_2')}</button>
                                 </a>
 
                             </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
 
 import HeroImage from '../../assets/memoji.jpg'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
@@ -8,9 +10,10 @@ import { Link } from 'react-scroll'
 
 
 const Home = () => {
+    const { t } = useTranslation();
     return (
         <div name="Home" 
-        className="h-screen w-full bg-gradient-to-b 
+        className="h-screen w-full bg-gradient-to-b pt-20
         from-black to-gray-800">
 
             <div className="max-w-screen-lg mx-auto flex flex-col
@@ -18,17 +21,16 @@ const Home = () => {
                 <div className="flex flex-col justify-center h-full">
                     <h2 className="text-4xl sm:text-7xl
                     font-bold text-white
-                    ">I am a Full-Stack Developer!</h2>
+                    ">{t('home_title')}</h2>
                     <p className="text-gray-500 py-4 max-w-md">
-                    I am a Full-Stack developer, specializing in building (hence, designing as well)
-                    cool, and most importantly, useful tools to fulfil needs.
+                    {t('home_description')}
                     </p>
                     <div className="flex">
                         <Link to='Portfolio' duration={500} smooth
                         className="group text-white w-fit px-6 py-3
                         my-2 flex items-center rounded-md bg-gradient-to-r
                         from-cyan-500 to-blue-500 cursor-pointer mr-4 hover:bg-gradient-to-bl">
-                            Portfolio
+                            {t('title_portfolio')}
                             <span
                             className="group-hover:rotate-90 duration-300">
                                 <MdOutlineKeyboardArrowRight size={25}
@@ -44,7 +46,7 @@ const Home = () => {
                         className="group text-white w-fit px-6 py-3
                         my-2 flex items-center rounded-md bg-gradient-to-r
                         from-blue-500 to-cyan-500 cursor-pointer hover:bg-gradient-to-bl">
-                            Download Resume
+                            {t('home_resume_button')}
                             <span className="group-hover:rotate-45 duration-300">
                                 <BsPaperclip size={25}
                                 className="ml-1"/>

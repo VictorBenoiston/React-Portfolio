@@ -1,6 +1,8 @@
 import { useState, React } from "react";
 import { ToastContainer } from 'react-toastify'
 import {RiMailSendLine} from 'react-icons/ri'
+import { useTranslation } from "react-i18next";
+
 
 
 
@@ -11,6 +13,7 @@ import emailjs from "emailjs-com";
 
 
 const Contact = () => {
+    const { t } = useTranslation();
 
     const emptyFields = {
         from_name: '',
@@ -50,25 +53,25 @@ const Contact = () => {
     p-4 text-white">
             <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto">
                 <div className="pb-8">
-                    <Title title='Contact' />
-                    <p className="py-6 mt-2">Submit the form below to get in touch with me.</p>
+                    <Title title={t('title_contact')} />
+                    <p className="py-6 mt-2">{t('contact_text')}</p>
                 </div>
                 <div className="flex justify-center items-center">
                     <form action="" className="flex flex-col w-full md:w-1/2"
                         onChange={handleChange} onSubmit={onSubmitHandler}>
-                        <input required type="text" name="from_name" id="" placeholder="Enter your name"
+                        <input required type="text" name="from_name" id="" placeholder={t('contact_ph_name')}
                             className="p-2 bg-transparent border-2 rounded-md text-white
                     focus:outline-none" onChange={handleChange} value={toSend.from_name} />
-                        <input required type="email" name="from_email" id="" placeholder="Enter your email"
+                        <input required type="email" name="from_email" id="" placeholder={t('contact_ph_email')}
                             className="p-2 bg-transparent border-2 rounded-md text-white
                     focus:outline-none my-4" onChange={handleChange} value={toSend.from_email} />
-                        <textarea name="message" placeholder="Enter your message" rows="10" className="p-2 bg-transparent border-2
+                        <textarea name="message" placeholder={t('contact_ph_message')} rows="10" className="p-2 bg-transparent border-2
                 rounded-md text-white focus:outline-none" onChange={handleChange} value={toSend.message}></textarea>
 
                         <button className="text-white bg-gradient-to-b from-cyan-500
                 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center
                 rounded-md hover:scale-110 duration-300 hover:bg-gradient-to-bl " type="submit"
-                ><RiMailSendLine size={20} className='mx-1'/>Send!</button>
+                ><RiMailSendLine size={20} className='mx-1'/>{t('contact_btn_send')}</button>
                     </form>
                 </div>
             </div>
