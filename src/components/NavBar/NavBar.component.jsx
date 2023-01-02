@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
 
 import { FaBars, FaTimes } from 'react-icons/fa'
 
@@ -14,7 +13,6 @@ const NavBar = () => {
 
     const links = i18next.language === 'en' ? navBarLinksEn : navBarLinksPt;
     const [nav, setNav] = useState(false);
-    const { t } = useTranslation();
 
     return (
 

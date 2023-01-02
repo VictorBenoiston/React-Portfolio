@@ -1,5 +1,3 @@
-import { useTranslation } from "react-i18next";
-
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import react from '../assets/react.png'
