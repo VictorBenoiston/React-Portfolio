@@ -8,6 +8,7 @@
     "home_resume_button": "Baixar Curriculo",
     "title_about": "Sobre",
     "about_title": "Olá! Fico feliz por estar aqui. Me chamo Victor, tenho 23 anos, e sou do Brasil!",
+    "about_text": "Me sinto realizado por ter a oportunidade de trabalhar na área de tecnologia! Desencadeei esta paixão durante uma viagem aos EUA. Mais especificamente, para San Francisco - CA. Isso mesmo, deixei minha casa no interior do nordeste Brasileiro, e me encontrei no meio do vale do Silício. Durante a minha estadia, tive a oportunidade de descobrir o poder da tecnologia, e como ela pode mudar vidas. Tive a oportunidade única de visitar o escritório do Facebook (Atualmente Meta®). Desde então, eu estudo incessantemente. Minha primeira linguagem foi o Python, e eu me apaixonei por ela! A sintaxe é ótima e fácil de aprender. Uma vez que descobri o ramo do aprendizado de máquina, este sentimento voltou à tona. Tive a chance de desenvolver um trabalho maravilhoso usando o algoritmo KNN, onde criei e implementei um sistema de recomendações para o meu trabalho de conclusão de curso. Agora, foco meu trabalho no Front-end/Ful-Stack. Atualmente, trabalho com a skillset MERN (MongoDB, ExpressJS, ReactJS e NodeJS). Além disso, trabalho com Python, React Native e entre oturas ferramentas de desenvolvimento.",
     "title_portfolio": "Portfólio",
     "portfolio_text": "Confira um pouco do meu trabalho aqui:",
     "portfolio_btn_2": "Código",
@@ -20,7 +21,7 @@
     "contact_btn_send": "Enviar!"
 
 
-
+    
 
 
 }
