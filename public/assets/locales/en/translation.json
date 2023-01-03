@@ -5,7 +5,7 @@
     "home_resume_button": "Download Resume",
     "title_about": "About",
     "about_title": "Hi, There! I'm glad you are here. My name is Victor, I am 23 years old, and I'm from Brazil",
-    "about_text": "",
+    "about_text": "I am thrilled to be working with tech! I discovered this world during a trip to the USA. More specifically, to San Francisco. Yeah, you're right, out of the sudden I left my countryside home in Brazil, and found muyself in the middle of the Silicon Valley. Once I was there, I had the chance to realize the power of tech. I had the amazing once in a lifeitme chance to visit the Facebook (now, Meta®) Headquarters. Since then, I've been studying. My first programming language was Python. I fell in love for it! The syntax is great, and easy to learn. Once I discovered the AI branch, that feeling was back. I had the chance to develop an amazing work using a KNN algorithm, to create a recommender system. Now, I am focousing on the Front-End branch. Currently working with React, JS, Redux and Tailwind.",
     "title_portfolio": "Portfolio",
     "portfolio_text": "Check out some of my work here:",
     "portfolio_btn_2": "Code",
