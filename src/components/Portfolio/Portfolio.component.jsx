@@ -17,7 +17,7 @@ const Portfolio = () => {
     className="bg-gradient-to-b from-black to-gray-800 
     w-full h-100 text-white">
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
-            <div className="pb-8" >
+            <div className="py-8" >
                 <Title title={t('title_portfolio')}/>
                 <p className="py-6 mt-2">{t('portfolio_text')}</p>
             </div>
