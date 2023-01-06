@@ -11,7 +11,7 @@ const About = () => {
         to-black text-white">
             <div className="max-w-screen-lg p-4 mx-auto flex
             flex-col justify-center w-full h-full">
-                <div className="pb-8 ">
+                <div className="py-6 ">
                     <Title title={t('title_about')}/>
                 </div>
                 <p className="text-justify font-bold text-3xl mt-10">

@@ -16,7 +16,7 @@ const Skills = () => {
     from-gray-800 to-black w-full h-110">
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col
         justify-center w-full h-full text-white">
-            <div className="py-4">
+            <div className="py-6">
                 <Title title='Skills' />
                 <p className="py-6 mt-2">{t('skills_text')}</p>
             </div>
