@@ -250,19 +250,19 @@ export const portfoliProjects = [
     {
         id: 2,
         src: eCommerce,
-        previewUrl: 'https://spiffy-croissant-1a7315.netlify.app/shop',
+        previewUrl: 'https://crwnecommerce.netlify.app/shop',
         githubUrl: 'https://github.com/VictorBenoiston/clothe-ecommerce'
     },
     {
         id: 3,
         src: signInPage,
-        previewUrl: 'https://spiffy-croissant-1a7315.netlify.app/auth',
+        previewUrl: 'https://crwnecommerce.netlify.app/auth',
         githubUrl: 'https://github.com/VictorBenoiston/clothe-ecommerce'
     },
     {
         id: 4,
         src: cart,
-        previewUrl: 'https://spiffy-croissant-1a7315.netlify.app/checkout',
+        previewUrl: 'https://crwnecommerce.netlify.app/checkout',
         githubUrl: 'https://github.com/VictorBenoiston/clothe-ecommerce'
     },
     {
